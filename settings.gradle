@@ -11,6 +11,7 @@ rootProject.name = 'devgem-playground'
 
 include 'core:core-enum'
 include 'core:core-api'
+include 'core:core-internal-api'
 include 'storage:db-core'
 include 'tests:api-docs'
 include 'support:logging'
