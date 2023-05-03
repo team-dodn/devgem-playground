@@ -21,7 +21,7 @@ public class ExampleInternalController {
         this.exampleExampleInternalService = exampleExampleInternalService;
     }
 
-    @GetMapping("/get/{exampleValue}")
+    @GetMapping("/internal/get/{exampleValue}")
     public InternalApiResponse<ExampleResponseDto> exampleGet(
             @PathVariable String exampleValue, @RequestParam String exampleParam) {
         ExampleResult result =
@@ -30,7 +30,7 @@ public class ExampleInternalController {
         return InternalApiResponse.success(new ExampleResponseDto(result.data()));
     }
 
-    @PostMapping("/post")
+    @PostMapping("/internal/post")
     public InternalApiResponse<ExampleResponseDto> examplePost(
             @RequestBody ExampleRequestDto request) {
         ExampleResult result =
