@@ -2,6 +2,7 @@ package io.dodn.devgem.core.api.controller.v1;
 
 import static io.dodn.devgem.test.api.RestDocsUtils.requestPreprocessor;
 import static io.dodn.devgem.test.api.RestDocsUtils.responsePreprocessor;
+
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -19,6 +20,7 @@ import io.dodn.devgem.domain.ExampleResult;
 import io.dodn.devgem.domain.ExampleService;
 import io.dodn.devgem.test.api.RestDocsTest;
 import io.restassured.http.ContentType;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;
