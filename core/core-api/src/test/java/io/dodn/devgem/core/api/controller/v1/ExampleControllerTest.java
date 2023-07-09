@@ -27,7 +27,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.restdocs.payload.JsonFieldType;
 
 public class ExampleControllerTest extends RestDocsTest {
+
     private ExampleService exampleService;
+
     private ExampleController controller;
 
     @BeforeEach
@@ -98,4 +100,5 @@ public class ExampleControllerTest extends RestDocsTest {
                                                 .type(JsonFieldType.STRING)
                                                 .ignored())));
     }
+
 }

@@ -9,4 +9,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 @EntityScan(basePackages = "io.dodn.devgem.storage.db.core")
 @EnableJpaRepositories(basePackages = "io.dodn.devgem.storage.db.core")
-class CoreJpaConfig {}
+class CoreJpaConfig {
+
+}

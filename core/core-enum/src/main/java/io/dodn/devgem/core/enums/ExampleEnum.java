@@ -1,3 +1,5 @@
 package io.dodn.devgem.core.enums;
 
-public enum ExampleEnum {}
+public enum ExampleEnum {
+
+}
