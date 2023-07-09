@@ -1,3 +1,4 @@
 package io.dodn.devgem.domain;
 
-public record ExampleResult(String data) {}
+public record ExampleResult(String data) {
+}
